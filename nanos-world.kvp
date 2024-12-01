@@ -14,6 +14,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Nanos World
+App.AppConfigId=8f5794ec-12ac-4855-946c-3e54a0ba1ffc
 App.CommandLineArgs=--query_port {{$ApplicationPort2}} --port {{$ApplicationPort1}} --max_players {{$MaxUsers}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=--{0} "{1}"
