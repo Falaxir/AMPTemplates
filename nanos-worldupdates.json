@@ -1,13 +1,9 @@
 [
     {
-        "UpdateStageName": "Game installing",
+        "UpdateStageName": "SteamCMD Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "1936830",
-        "UpdateSourceArgs": "1841660",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    }
+        "UpdateSourceArgs": "1841660"
+    },
 ]
