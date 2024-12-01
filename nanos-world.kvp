@@ -1,7 +1,7 @@
 Meta.DisplayName=Nanos World
 Meta.Description=Nanos World is the next generation multiplayer sandbox created by you and nanos. Players, developers and modders themselves can build their own game on UE5
 Meta.Arch=x86_64
-Meta.Author=Falaxir - Made with AMP Config Generator
+Meta.Author=Falaxir
 Meta.URL=https://docs.nanos.world/docs/core-concepts/server-manual/server-configuration
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
