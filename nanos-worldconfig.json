@@ -1,0 +1,93 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "Server name as it appears in the server list",
+        "Keywords": "server,name",
+        "FieldName": "name",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "name",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "My Nanos World Server - Powered by AMP",
+        "Placeholder": "My Nanos World Server - Powered by AMP",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Description",
+        "Category": "Server Settings",
+        "Description": "Server description as it appears in the server list",
+        "Keywords": "server,description",
+        "FieldName": "description",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "description",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "My awesome server!",
+        "Placeholder": "My awesome server!",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Map",
+        "Category": "Server Settings",
+        "Description": "Name of the map to load",
+        "Keywords": "map",
+        "FieldName": "map",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "map",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "nanos-world::TestingMap",
+        "Placeholder": "nanos-world::TestingMap",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Announce",
+        "Category": "Server Settings",
+        "Description": "Server is displayed on the server list",
+        "Keywords": "announce",
+        "FieldName": "announce",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "announce",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "1",
+        "Placeholder": "1",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "0": "False",
+            "1": "True"
+        }
+    },
+    {
+        "DisplayName": "Dedicated Server",
+        "Category": "Server Settings",
+        "Description": "If false, will rely on p2p connection instead (no port forwarding required)",
+        "Keywords": "dedicated,server",
+        "FieldName": "dedicated_server",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dedicated_server",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "1",
+        "Placeholder": "1",
+        "Suffix": "",
+        "Hidden": true,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "0": "False",
+            "1": "True"
+        }
+    }
+]
