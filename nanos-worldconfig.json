@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Server Name",
-        "Category": "Server Settings",
+        "Category": "Nanos World",
         "Description": "Server name as it appears in the server list",
         "Keywords": "server,name",
         "FieldName": "name",
@@ -18,7 +18,7 @@
     },
     {
         "DisplayName": "Server Description",
-        "Category": "Server Settings",
+        "Category": "Nanos World",
         "Description": "Server description as it appears in the server list",
         "Keywords": "server,description",
         "FieldName": "description",
@@ -35,7 +35,7 @@
     },
     {
         "DisplayName": "Map",
-        "Category": "Server Settings",
+        "Category": "Nanos World",
         "Description": "Name of the map to load",
         "Keywords": "map",
         "FieldName": "map",
@@ -52,7 +52,7 @@
     },
     {
         "DisplayName": "Announce",
-        "Category": "Server Settings",
+        "Category": "Nanos World",
         "Description": "Server is displayed on the server list",
         "Keywords": "announce",
         "FieldName": "announce",
@@ -71,8 +71,23 @@
         }
     },
     {
+        "DisplayName": "Player Limit",
+        "Category": "Nanos World",
+        "Description": "Sets the maximum number of players allowed on the server at one time",
+        "Keywords": "max,players,limit,maxplayers",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "MinValue": "1",
+        "MaxValue": "999",
+        "ParamFieldName": "maxplayers",
+        "DefaultValue": "8",
+        "Placeholder": "8",
+        "Suffix": "players",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Dedicated Server",
-        "Category": "Server Settings",
+        "Category": "Nanos World",
         "Description": "If false, will rely on p2p connection instead (no port forwarding required)",
         "Keywords": "dedicated,server",
         "FieldName": "dedicated_server",
