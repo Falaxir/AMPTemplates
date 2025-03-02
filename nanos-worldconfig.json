@@ -115,6 +115,7 @@
         "ParamFieldName": "ServerBranch",
         "DefaultValue": "",
         "EnumValues": {
+            "public": "Public (default)",
             "bleeding-edge": "Bleeding Edge"
         }
     }
