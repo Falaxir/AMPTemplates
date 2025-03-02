@@ -113,7 +113,7 @@
         "FieldName": "ServerBranch",
         "InputType": "enum",
         "ParamFieldName": "ServerBranch",
-        "DefaultValue": "",
+        "DefaultValue": "public",
         "EnumValues": {
             "public": "Public (default)",
             "bleeding-edge": "Bleeding Edge"
