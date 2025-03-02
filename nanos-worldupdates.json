@@ -4,6 +4,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "1936830",
-        "UpdateSourceArgs": "1841660"
+        "UpdateSourceArgs": "1841660",
+        "UpdateSourceVersion": "{{ServerBranch}}"
     },
 ]
