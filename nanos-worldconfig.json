@@ -104,5 +104,18 @@
             "0": "False",
             "1": "True"
         }
+    },
+    {
+        "DisplayName": "Server Branch",
+        "Category": "Nanos World",
+        "Description": "Sets the server branch to install. NOTE: Update the server after switching branches!",
+        "Keywords": "server,branch,bleeding-edge",
+        "FieldName": "ServerBranch",
+        "InputType": "enum",
+        "ParamFieldName": "ServerBranch",
+        "DefaultValue": "",
+        "EnumValues": {
+            "bleeding-edge": "Bleeding Edge"
+        }
     }
 ]
