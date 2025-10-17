@@ -84,4 +84,4 @@ App.Ports=@IncludeJson[nanos-worldports.json]
 App.UpdateSources=@IncludeJson[nanos-worldupdates.json]
 Errors=
 isValid=true
-App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}:{{$FullBaseDir}}bin:%LD_LIBRARY_PATH%","SteamAppId":"1936830"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"1936830"}
