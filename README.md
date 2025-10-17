@@ -6,9 +6,9 @@ My AMP template for custom game servers
 
 To add theses templates, follow the instruction on [AMP wiki](https://github.com/CubeCoders/AMP/wiki/Configuring-the-'Generic'-AMP-module#adding-custom-templates-to-amp)
 
-Basically, it is under : `Configuration` -> `Instance Deployement` -> `Instance Management` And then on the "Configuration Repositories" you click plus icon and add `Falaxir/AMPTemplates`.
+Basically, it is under : `Configuration` -> `Instance Deployement` -> `Instance Management` And then on the "Configuration Repositories" you click plus icon and add `Falaxir/AMPTemplates:master`.
 
-Now it should appear when your create a new instance (it will begin with `Falaxir - *GAMENAMEHERE*`)
+Now it should appear when your create a new instance (it will begin with `Falaxir - *GAMENAMEHERE*`, you might need to refresh the instances page and even clear your browser cache for it to be displayed)
 
 # Games
 
