@@ -119,5 +119,22 @@
             "bleeding-edge": "Bleeding Edge",
             "halloween-test": "Halloween playtest (temporary event)"
         }
-    }
+    },
+    {
+        "DisplayName": "CLI mode arguments",
+        "Category": "Nanos World",
+        "Description": "CLI args to update/install packages/assets. Empty value to disable cli",
+        "Keywords": "server,cli,update,package,assets",
+        "FieldName": "cli",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "cli",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "Placeholder": "--cli install package sandbox",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
 ]
