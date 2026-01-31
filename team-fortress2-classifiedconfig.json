@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "RCON Password",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "",
         "Keywords": "",
@@ -13,19 +13,19 @@
     },
     {
         "DisplayName": "Server Name",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the name of the server that appears in the server list",
         "Keywords": "server,name,hostname",
         "FieldName": "hostname",
         "InputType": "text",
         "ParamFieldName": "hostname",
-        "DefaultValue": "AMP Powered Team Fortress 2 Server",
+        "DefaultValue": "AMP Powered Team Fortress 2 Classified Server",
         "EnumValues": {}
     },
     {
         "DisplayName": "Server Tags",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Comma-separated list of server tags that give additional information about the server in the server browser",
         "Keywords": "tags,sv_tags",
@@ -38,7 +38,7 @@
     },
     {
         "DisplayName": "LAN Server",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If enabled, the server will operate as a LAN server: no heartbeat, no authentication, and no non-class C addresses",
         "Keywords": "lan,local,sv_lan",
@@ -53,7 +53,7 @@
     },
     {
         "DisplayName": "Game Server Login Token (GSLT)",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the [Steam Game Server Login Token](https://steamcommunity.com/dev/managegameservers) for the server, to allow it to be listed in the server browser. Use app ID 440 when generating the token",
         "Keywords": "steam,server,login,token,gslt,sv_setsteamaccount",
@@ -68,7 +68,7 @@
     },
     {
         "DisplayName": "Server Password",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the password required to connect to the server. Default is no password",
         "Keywords": "server,password,sv_password",
@@ -80,7 +80,7 @@
     },
     {
         "DisplayName": "Server Account ID",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the server account ID",
         "Keywords": "server,account,id,tf_server_identity_account_id",
@@ -92,7 +92,7 @@
     },
     {
         "DisplayName": "Server Account Token",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the server account token",
         "Keywords": "server,account,token,tf_server_identity_token",
@@ -104,14 +104,14 @@
     },
     {
         "DisplayName": "Initial Map",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the map to start the server with. If \"Custom\" is selected, Custom Initial Map must also be specified. The Player Limit must be set to 32 for Man vs Machine maps",
         "Keywords": "map",
         "FieldName": "map",
         "InputType": "enum",
         "ParamFieldName": "map",
-        "DefaultValue": "arena_badlands",
+        "DefaultValue": "ctf_2fort",
         "EnumValues": {
             "arena_badlands": "Arena: Badlands",
             "arena_byre": "Arena: Byre",
@@ -299,7 +299,7 @@
     },
     {
         "DisplayName": "Custom Initial Map",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets a custom map to use for the Initial Map, if \"Custom\" is selected",
         "Keywords": "custom,map",
@@ -311,7 +311,7 @@
     },
     {
         "DisplayName": "Map Cycle",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the map cycle for the server",
         "Keywords": "map,cycle,mapcycle,mapcycle.txt",
@@ -324,7 +324,7 @@
     },
     {
         "DisplayName": "Server Region",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the server region shown in the server browser",
         "Keywords": "server,region,sv_region",
@@ -347,7 +347,7 @@
     },
     {
         "DisplayName": "Player Limit",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the maximum number of players allowed on the server at one time. Must be set to 32 for Man vs Machine maps",
         "Keywords": "max,players,limit,maxplayers",
@@ -363,7 +363,7 @@
     },
     {
         "DisplayName": "Visible Player Limit",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the maximum players reported to prospective clients, regardless of the Player Limit",
         "Keywords": "visible,max,players,sv_visiblemaxplayers",
@@ -379,7 +379,7 @@
     },
     {
         "DisplayName": "Allow Spectators",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If set, spectator mode will be enabled",
         "Keywords": "allow,spectators,mp_allowspectators",
@@ -394,7 +394,7 @@
     },
     {
         "DisplayName": "Pure Server Mode",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets whether clients are only allowed to use certain files",
         "Keywords": "pure,server,cheat,hack,integrity,sv_pure",
@@ -412,7 +412,7 @@
     },
     {
         "DisplayName": "Kick Clients On Pure Server",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If enabled, the server will kick clients with mismatching files. Otherwise, it will issue a warning to the clients",
         "Keywords": "pure,server,cheat,hack,integrity,sv_pure_kick_clients",
@@ -427,7 +427,7 @@
     },
     {
         "DisplayName": "Enable Cheats",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If set, cheat convars will be allowed to be used on the server",
         "Keywords": "allow,cheat,hack,integrity,sv_cheats",
@@ -442,7 +442,7 @@
     },
     {
         "DisplayName": "Disable Valve Anti-Cheat",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If set, Valve Anti-Cheat (VAC) will be disabled",
         "Keywords": "valve,anti,cheat,vac,insecure",
@@ -457,7 +457,7 @@
     },
     {
         "DisplayName": "Enable IP Packet Filter",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If set, enables packet filtering by IP mode. If disabled, everyone will treated as IP-banned, but their IP won't be added to the banlist",
         "Keywords": "ip,ban,banning,sv_filterban",
@@ -472,7 +472,7 @@
     },
     {
         "DisplayName": "Allow Download From Server",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If set, clients will be allowed to download content from the server (maps, sprays and related)",
         "Keywords": "allow,download,content,maps,sv_allowdownload",
@@ -487,7 +487,7 @@
     },
     {
         "DisplayName": "Fast Download URL",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the URL for clients to download custom content from, instead of sourcing the content from the server. This allows for faster downloads",
         "Keywords": "fastdl,download,url,sv_downloadurl",
@@ -500,7 +500,7 @@
     },
     {
         "DisplayName": "Allow Upload To Server",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If set, clients will be allowed to upload customisation files to the server",
         "Keywords": "allow,upload,customisation,files,sv_allowupload",
@@ -515,7 +515,7 @@
     },
     {
         "DisplayName": "Maximum File Size",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the maximum allowed file size for uploading to the server",
         "Keywords": "maximum,upload,file,size,net_maxfilesize",
@@ -531,7 +531,7 @@
     },
     {
         "DisplayName": "Minimum Client Rate",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the minimum allowable bandwidth rate a client may have set when connected to the server. 0 = no minimum",
         "Keywords": "minimum,bandwidth,rate,sv_minrate",
@@ -546,7 +546,7 @@
     },
     {
         "DisplayName": "Maximum Client Rate",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the maximum allowable bandwidth rate a client may have set when connected to the server. 0 = no limit",
         "Keywords": "maximum,bandwidth,rate,sv_maxrate",
@@ -561,7 +561,7 @@
     },
     {
         "DisplayName": "Minimum Server Update Rate",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the minimum number of updates per second of the positions of the server's models (players, guns, etc) that server sends to clients",
         "Keywords": "minimum,update,rate,sv_minupdaterate",
@@ -575,7 +575,7 @@
     },
     {
         "DisplayName": "Maximum Server Update Rate",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the maximum number of updates per second of the positions of the server's models (players, guns, etc) that server sends to clients",
         "Keywords": "maximum,update,rate,sv_maxupdaterate",
@@ -589,7 +589,7 @@
     },
     {
         "DisplayName": "Decal Frequency",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Sets the time between decal sprays",
         "Keywords": "decalfrequency",
@@ -604,7 +604,7 @@
     },
     {
         "DisplayName": "Ping Boost",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Selects between optimised network code stack. Setting at 2 usually reduces latency toward 1ms without loss of activity input packets",
         "Keywords": "ping,boost,latency,network,pingboost",
@@ -621,7 +621,7 @@
     },
     {
         "DisplayName": "Enable CPU Stats Collection",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If set, CPU stats will be collected",
         "Keywords": "cpu,stats,sv_stats",
@@ -636,7 +636,7 @@
     },
     {
         "DisplayName": "Server/RCON IPv4 IP Binding",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "If required, you can change the IPv4 IP binding of the server and RCON by changing the Application IP Binding for this instance. NOTE: AMP requires the server to be bound to a specific IP, rather than 0.0.0.0, for the server to log to AMP's console. The IP must also be reachable by AMP",
         "Keywords": "ip,binding",
@@ -647,7 +647,7 @@
     },
     {
         "DisplayName": "Additional Command Line Parameters",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Specifies additional command line parameters (anything that begins with a -) that are not otherwise set by AMP. Use with care",
         "Keywords": "custom,server,arguments,variables,cvars,convars,parameters",
@@ -659,7 +659,7 @@
     },
     {
         "DisplayName": "Additional Console Variables",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Specifies additional console variables (anything that begins with a +) that are not otherwise set by AMP. Use with care. Preferably, specify the equivalent under \"Additional Server Settings\"",
         "Keywords": "custom,server,arguments,variables,cvars,convars,parameters",
@@ -672,7 +672,7 @@
     },
     {
         "DisplayName": "Additional Server Settings",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Specifies additional settings to include in \"server.cfg\" that are not otherwise set by AMP. Example: sv_maxcmdrate 66. One setting per line",
         "Keywords": "additional,settings,custom",
@@ -685,7 +685,7 @@
     },
     {
         "DisplayName": "Enable Friendly Fire",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If set, friendly fire will be enabled (teammates can cause damage to other teammates)",
         "Keywords": "friendly,fire,mp_friendlyfire",
@@ -700,7 +700,7 @@
     },
     {
         "DisplayName": "Enable Flashlight",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If sets, allows the use of the flashlight by pressing the F button",
         "Keywords": "flashlight,mp_flashlight",
@@ -715,7 +715,7 @@
     },
     {
         "DisplayName": "Enable Footsteps",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If set, footstep sounds will be enabled",
         "Keywords": "footstep,sounds,mp_footsteps",
@@ -730,7 +730,7 @@
     },
     {
         "DisplayName": "Enable Auto Crosshair",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If set, the auto crosshair will be enabled",
         "Keywords": "auto,crosshair,mp_autocrosshair",
@@ -745,7 +745,7 @@
     },
     {
         "DisplayName": "Allow Players To Pause Server",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If set, players will be able to pause the server. Not recommended",
         "Keywords": "pause,pausable,sv_pausable",
@@ -760,7 +760,7 @@
     },
     {
         "DisplayName": "Allow Wait Command",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If enabled, the wait command will be allowed on clients connected to the server. Recommended to keep disabled to prevent server crash exploits",
         "Keywords": "wait,command,sv_allow_wait_command",
@@ -775,7 +775,7 @@
     },
     {
         "DisplayName": "Allow All Talk",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If enabled, players can communicate with all other players, with no team restrictions",
         "Keywords": "all,talk,sv_alltalk",
@@ -790,7 +790,7 @@
     },
     {
         "DisplayName": "Enable Fade To Black",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If enabled, a player's screen fades to black for the remainder of the round after death (HUD and chat still works)",
         "Keywords": "fade,black,spectator,death,mp_fadetoblack",
@@ -805,7 +805,7 @@
     },
     {
         "DisplayName": "Automatic Team Balancing",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "Sets whether to automatically balance teams based on the Teams Unbalance Limit",
         "Keywords": "team,automatic,balance,balancing,mp_autoteambalance",
@@ -821,7 +821,7 @@
     },
     {
         "DisplayName": "Teams Unbalance Limit",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "Teams will be considered unbalanced for the purpose of Automatic Team Balancing when one team has this many more players than the other team. 0 = check disabled",
         "Keywords": "team,automatic,balance,balancing,limit,mp_teams_unbalance_limit",
@@ -835,7 +835,7 @@
     },
     {
         "DisplayName": "Enable Stalemate Mode",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If set, the stalemate mode will be enabled",
         "Keywords": "stalemate,mode,mp_stalemate_enable",
@@ -850,7 +850,7 @@
     },
     {
         "DisplayName": "Stalemate Mode Time Limit",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "Sets the time limit of the stalemate round",
         "Keywords": "stalemate,round,time,limit,mp_stalemate_timelimit",
@@ -865,7 +865,7 @@
     },
     {
         "DisplayName": "Map Rotation Time Limit",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "Sets the game time per map. 0 = disabled",
         "Keywords": "time,limit,rotation,mp_timelimit",
@@ -880,7 +880,7 @@
     },
     {
         "DisplayName": "Map Rotation Round Limit",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "Sets the maximum number of rounds to play before the map rotates. 0 = disabled",
         "Keywords": "round,limit,rotation,mp_maxrounds",
@@ -895,7 +895,7 @@
     },
     {
         "DisplayName": "Map Rotation Win Limit",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "Sets the maximum score one team can reach before the map rotates. 0 = disabled",
         "Keywords": "win,limit,rotation,mp_winlimit",
@@ -909,7 +909,7 @@
     },
     {
         "DisplayName": "Disable Damage Spread",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If set, the random damage spread applied to all player damage will be disabled",
         "Keywords": "disable,damage,spread,tf_damage_disablespread",
@@ -925,7 +925,7 @@
     },
     {
         "DisplayName": "Restrict Spectator Mode",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "Gameplay:joystick:2",
         "Description": "If enabled, the spectator mode for dead players will be restricted",
         "Keywords": "spectator,camera,first,person,mp_forcecamera",
@@ -940,7 +940,7 @@
     },
     {
         "DisplayName": "Disable SourceTV",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "SourceTV:tv:3",
         "Description": "If set, SourceTV will be disabled on the server",
         "Keywords": "sourcetv,source,nohltv",
@@ -955,7 +955,7 @@
     },
     {
         "DisplayName": "Enable Automatic Demo Recording",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "SourceTV:tv:3",
         "Description": "If set, all games will be recorded as SourceTV demos",
         "Keywords": "sourcetv,tv,tv_autorecord",
@@ -970,7 +970,7 @@
     },
     {
         "DisplayName": "SourceTV Viewer Limit",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "SourceTV:tv:3",
         "Description": "Sets the maximum number of clients allowed to connect to the server's SourceTV. 0 = no SourceTV viewers are allowed, the game will only be recorded locally",
         "Keywords": "max,spectators,clients,viewers,sourcetv,tv,tv_maxclients",
@@ -986,7 +986,7 @@
     },
     {
         "DisplayName": "Maximum SourceTV Bandwidth",
-        "Category": "Team Fortress 2:stadia_controller",
+        "Category": "Team Fortress 2 Classified:stadia_controller",
         "Subcategory": "SourceTV:tv:3",
         "Description": "Sets the maximum SourceTV spectator bandwidth rate allowed. 0 = unlimited",
         "Keywords": "maximum,bandwidth,rate,sourcetv,tv,tv_maxrate",
