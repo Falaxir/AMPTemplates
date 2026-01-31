@@ -1,6 +1,8 @@
 # AMPTemplates
 
-My custom templates
+https://cubecoders.com/AMP
+
+My custom templates for AMP game control panel by cubecoders
 
 # Instructions
 
