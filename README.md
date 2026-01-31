@@ -15,8 +15,12 @@ Now it should appear when your create a new instance (it will begin with `Falaxi
 List of supported games for this template
 
 ## Nanos world
+![nanosworldbanner](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1841660/acf79715867799df9b550eaceea6816f75309d3e/header.jpg)
+
 https://nanos-world.com/
+
 Play in unique, community-made game modes, create custom addons with Lua, and import assets from Unreal Engine 5. Host your own server and enjoy endless gaming possibilities with friends! 
+
 - [x] Installation
 - [x] Launch
 - [x] Update
@@ -25,7 +29,9 @@ Play in unique, community-made game modes, create custom addons with Lua, and im
 - [ ] Read and Edit config file*
 
 ## Team fortress 2 Classified
-TODO
+![tf2classifiedbanner](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3545060/cede55b7156e2fc893d6eef6ecbe9c6cdfe52e9b/header.jpg)
+
+Team Fortress 2 Classified is a new Team Fortress 2 experience built on its original inspirations and tone. Updated with refreshed visuals, new gamemodes and maps, new weapons, new teams, and a portly oil baron. 
 
 # Notes
 *TOML files are not supported to be modified by AMP parameters. To edit this file for your own config (packages, ...), open it in your "File Browser" in AMP
