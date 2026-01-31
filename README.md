@@ -1,6 +1,6 @@
 # AMPTemplates
 
-My AMP template for custom game servers
+My custom templates
 
 # Instructions
 
@@ -15,6 +15,8 @@ Now it should appear when your create a new instance (it will begin with `Falaxi
 List of supported games for this template
 
 ## Nanos world
+https://nanos-world.com/
+Play in unique, community-made game modes, create custom addons with Lua, and import assets from Unreal Engine 5. Host your own server and enjoy endless gaming possibilities with friends! 
 - [x] Installation
 - [x] Launch
 - [x] Update
@@ -22,4 +24,8 @@ List of supported games for this template
 - [x] Custom launch variables
 - [ ] Read and Edit config file*
 
+## Team fortress 2 Classified
+TODO
+
+# Notes
 *TOML files are not supported to be modified by AMP parameters. To edit this file for your own config (packages, ...), open it in your "File Browser" in AMP
