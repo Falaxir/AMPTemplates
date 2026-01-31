@@ -190,5 +190,12 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "3557020",
         "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "TF2 Classic Library Fixes",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"cd bin/linux64 && rm -f libvstdlib.so && ln -sf libvstdlib_srv.so libvstdlib.so && cd ../.. && cd tf2classified/bin/linux64 && ln -sf server.so server_srv.so\""
     }
 ]
