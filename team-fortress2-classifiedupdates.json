@@ -3,7 +3,7 @@
         "UpdateStageName": "SteamCMD Server Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "232250",
+        "UpdateSourceData": "3557020",
         "UpdateSourceArgs": "440",
         "SkipOnFailure": false
     },
@@ -119,7 +119,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "powershell.exe",
-        "UpdateSourceArgs": "-NoProfile -Command \"Set-Location -Path 'tf2/232250'; if (Test-Path 'tf/cfg/sourcemod') { Remove-Item -Path 'sm/cfg/sourcemod' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null }; if (Test-Path 'tf/addons/sourcemod/configs') { Remove-Item -Path 'sm/addons/sourcemod/configs' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null }; if (Test-Path 'tf/addons/sourcemod/plugins') { Remove-Item -Path 'sm/addons/sourcemod/plugins' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null }; Copy-Item -Path 'sm/*' -Destination 'tf' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null; Remove-Item -Path 'sm' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null\"",
+        "UpdateSourceArgs": "-NoProfile -Command \"Set-Location -Path 'tf2c/3557020'; if (Test-Path 'tf/cfg/sourcemod') { Remove-Item -Path 'sm/cfg/sourcemod' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null }; if (Test-Path 'tf/addons/sourcemod/configs') { Remove-Item -Path 'sm/addons/sourcemod/configs' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null }; if (Test-Path 'tf/addons/sourcemod/plugins') { Remove-Item -Path 'sm/addons/sourcemod/plugins' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null }; Copy-Item -Path 'sm/*' -Destination 'tf' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null; Remove-Item -Path 'sm' -Recurse -Force -ErrorAction SilentlyContinue | Out-Null\"",
         "UpdateSourceConditionSetting": "InstallMod",
         "UpdateSourceConditionValue": "true",
         "SkipOnFailure": true
@@ -129,7 +129,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd tf2/232250 && [ -d tf/cfg/sourcemod ] && rm -rf sm/cfg/sourcemod >/dev/null 2>&1; [ -d tf/addons/sourcemod/configs ] && rm -rf sm/addons/sourcemod/configs >/dev/null 2>&1; [ -d tf/addons/sourcemod/plugins ] && rm -rf sm/addons/sourcemod/plugins >/dev/null 2>&1; \\cp -rf sm/* tf/ >/dev/null 2>&1; rm -rf sm >/dev/null 2>&1\"",
+        "UpdateSourceArgs": "-c \"cd tf2c/3557020 && [ -d tf/cfg/sourcemod ] && rm -rf sm/cfg/sourcemod >/dev/null 2>&1; [ -d tf/addons/sourcemod/configs ] && rm -rf sm/addons/sourcemod/configs >/dev/null 2>&1; [ -d tf/addons/sourcemod/plugins ] && rm -rf sm/addons/sourcemod/plugins >/dev/null 2>&1; \\cp -rf sm/* tf/ >/dev/null 2>&1; rm -rf sm >/dev/null 2>&1\"",
         "UpdateSourceConditionSetting": "InstallMod",
         "UpdateSourceConditionValue": "true",
         "SkipOnFailure": true
@@ -169,7 +169,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "cmd.exe",
-        "UpdateSourceArgs": "/C cd tf2\\232250\\tf\\addons > NUL 2>&1 && del /Q /F metamod.vdf metamod_x64.vdf > NUL 2>&1 & exit /b 0",
+        "UpdateSourceArgs": "/C cd tf2c\\3557020\\tf\\addons > NUL 2>&1 && del /Q /F metamod.vdf metamod_x64.vdf > NUL 2>&1 & exit /b 0",
         "UpdateSourceConditionSetting": "InstallMod",
         "UpdateSourceConditionValue": "false",
         "SkipOnFailure": true
@@ -179,7 +179,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd tf2/232250/tf/addons >/dev/null 2>&1 && rm -rf metamod.vdf metamod_x64.vdf >/dev/null 2>&1; exit 0\"",
+        "UpdateSourceArgs": "-c \"cd tf2c/3557020/tf/addons >/dev/null 2>&1 && rm -rf metamod.vdf metamod_x64.vdf >/dev/null 2>&1; exit 0\"",
         "UpdateSourceConditionSetting": "InstallMod",
         "UpdateSourceConditionValue": "false",
         "SkipOnFailure": true
@@ -196,6 +196,6 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd bin/linux64 && rm -f libvstdlib.so && ln -sf libvstdlib_srv.so libvstdlib.so && cd ../.. && cd tf2classified/bin/linux64 && ln -sf server.so server_srv.so\""
+        "UpdateSourceArgs": "-c \"cd tf2c/3557020/bin/linux64 && rm -f libvstdlib.so && ln -sf libvstdlib_srv.so libvstdlib.so && cd ../.. && cd tf2classified/bin/linux64 && ln -sf server.so server_srv.so\""
     }
 ]
