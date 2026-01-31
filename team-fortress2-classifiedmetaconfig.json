@@ -3,7 +3,7 @@
         "ConfigFile": "tf2classified/cfg/server.cfg",
         "AutoMap": true,
         "ConfigType": "template",
-        "ConfigFileTemplate": "tf2/AMP_server.cfg"
+        "ConfigFileTemplate": "tf2c/AMP_server.cfg"
     },
     {
         "ConfigFile": "tf2classified/cfg/mapcycle.txt",
