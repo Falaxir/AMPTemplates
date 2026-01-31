@@ -189,9 +189,6 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "3557020",
-        "UpdateSourceArgs": "440",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
         "SkipOnFailure": false
     }
 ]
