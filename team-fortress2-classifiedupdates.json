@@ -3,7 +3,7 @@
         "UpdateStageName": "SteamCMD Server Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "3557020",
+        "UpdateSourceData": "232250",
         "UpdateSourceArgs": "440",
         "SkipOnFailure": false
     },
@@ -196,6 +196,6 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd tf2c/3557020/bin/linux64 && rm -f libvstdlib.so && ln -sf libvstdlib_srv.so libvstdlib.so && cd ../.. && cd tf2classified/bin/linux64 && ln -sf server.so server_srv.so && mkdir -p ~/.steam/sdk64 && cd ../../../ && ln -s linux64/steamclient.so ~/.steam/sdk64/\""
+        "UpdateSourceArgs": "-c \"cd tf2c/3557020/bin/linux64 && rm -f libvstdlib.so && ln -sf libvstdlib_srv.so libvstdlib.so && cd ../.. && cd tf2classified/bin/linux64 && ln -sf server.so server_srv.so && mkdir -p ~/.steam/sdk64 && cd ../../../ && ln -sf linux64/steamclient.so ~/.steam/sdk64/\""
     }
 ]
