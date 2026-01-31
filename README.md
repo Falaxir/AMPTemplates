@@ -21,6 +21,7 @@ https://nanos-world.com/
 
 Play in unique, community-made game modes, create custom addons with Lua, and import assets from Unreal Engine 5. Host your own server and enjoy endless gaming possibilities with friends! 
 
+### features
 - [x] Installation
 - [x] Launch
 - [x] Update
@@ -35,7 +36,11 @@ Team Fortress 2 Classified is a new Team Fortress 2 experience built on its orig
 
 ### Important
 
-For some reason, the first update when creating the instance (by clicking update button or start) always fail, click on it again and it will work...
+For some reason, the first update when creating the instance (by clicking update button or start) may fail (always in my case for some reason), click on it again and it will work...
+
+### Features
+Same as tf2 officially supported as amp for my tests, even sourcemod works!
 
 # Notes
 *TOML files are not supported to be modified by AMP parameters. To edit this file for your own config (packages, ...), open it in your "File Browser" in AMP
+
