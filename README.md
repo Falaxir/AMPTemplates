@@ -31,17 +31,20 @@ Play in unique, community-made game modes, create custom addons with Lua, and im
 - [x] Custom launch variables
 - [ ] Read and Edit config file*
 
-## Team fortress 2 Classified
+## ~~Team fortress 2 Classified~~
+
+### OUTDATED: It is now officially supported by AMP! Please use the AMP official installation instance
+
 ![tf2classifiedbanner](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3545060/cede55b7156e2fc893d6eef6ecbe9c6cdfe52e9b/header.jpg)
 
-Team Fortress 2 Classified is a new Team Fortress 2 experience built on its original inspirations and tone. Updated with refreshed visuals, new gamemodes and maps, new weapons, new teams, and a portly oil baron. 
+~~Team Fortress 2 Classified is a new Team Fortress 2 experience built on its original inspirations and tone. Updated with refreshed visuals, new gamemodes and maps, new weapons, new teams, and a portly oil baron.~~
 
-### Important
+### ~~Important~~
 
-For some reason, the first update when creating the instance (by clicking update button or start) may fail (always in my case for some reason), click on it again and it will work...
+~~For some reason, the first update when creating the instance (by clicking update button or start) may fail (always in my case for some reason), click on it again and it will work...~~
 
-### Features
-Same as tf2 officially supported as amp for my tests, even sourcemod works!
+### ~~Features~~
+~~Same as tf2 officially supported as amp for my tests, even sourcemod works!~~
 
 # Notes
 *TOML files are not supported to be modified by AMP parameters. To edit this file for your own config (packages, ...), open it in your "File Browser" in AMP
